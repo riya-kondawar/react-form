@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
 
-  const[ values, aetValues] = useState({
+  const[ values, setValues] = useState({
     fullName: '',
     email: '',
     phone: '',
