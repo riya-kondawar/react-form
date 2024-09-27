@@ -167,6 +167,21 @@ input[type="radio"] {
   transition: transform 0.6s ease-in-out;
 }
 
+.error-input {
+  border: 2px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 footer {
   background-color: #222;
   color: #fff;
@@ -192,3 +207,4 @@ footer a {
   color: #3c97bf;
   text-decoration: none;
 }
+
