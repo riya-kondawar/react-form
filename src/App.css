@@ -20,7 +20,7 @@ body {
 
 h1 {
   font-weight: bold;
-  margin: 0;
+  margin: 0 auto;
 }
 
 h2 {
@@ -35,6 +35,9 @@ p {
   margin: 20px 0 30px;
 }
 
+b{
+  color: #FF4B2B;
+}
 /* a {
 	color: #333;
 	font-size: 14px;

@@ -39,16 +39,16 @@ function App() {
 
             <h1>Register User</h1>
 
-            <label htmlFor="fullName">Full Name*</label>
-            <input type="text" name="firstName" id="" placeholder="Enter First Name" required value={values.fullname}
+            <label htmlFor="fullName">Full Name<b>*</b></label>
+            <input type="text" name="firstName" id="" placeholder="Enter Full Name" required value={values.fullname}
             onChange = {(e) => handleChanges(e)} />
             
 
-            <label htmlFor="email">Email*</label>
+            <label htmlFor="email">Email<b>*</b></label>
             <input type="email" name="email" id="email" placeholder='Enter Email'required value={values.email}
             onChange = {(e) => handleChanges(e)} />
 
-            <label htmlFor="phone">Phone No.*</label>
+            <label htmlFor="phone">Phone No.<b>*</b></label>
             <input type="text" name="phone" id="phone" placeholder='Enter Phone No.' required value={values.phone}
             onChange = {(e) => handleChanges(e)} />
 
